@@ -70,12 +70,32 @@ img{
 /* MEDIA QUERIES */
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   #steps .row > .left,
   #steps .row > .central,
   #steps .row > .right{
-    float: none;
-    width: 33%;
-    margin: 0 auto;
+    width: 100%;
+    text-align: center;
   }
+}
+
+@media screen and (max-width: 420px) {
+  #lezioni .row > .left, #lezioni .row > .right {
+    width: 100%;
+    text-align: center;
+  }
+
+  #lezioni .row img {
+    display: inline-block;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  #lezioni .container {
+    text-align: center;
+  }
+
+ .row {
+   max-width: 100%;
+ }
 }
