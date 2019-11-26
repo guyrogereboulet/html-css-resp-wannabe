@@ -69,24 +69,13 @@ img{
 
 /* MEDIA QUERIES */
 
- @media screen and (max-width: 480px) {
-
-   .right {
-     background-color: red;
-     float: none;
-     margin: 10px;
-
-   }
-   .central {
-     background-color: green;
-     float: none;
-     margin: 10px;
-   }
- }
 
 @media screen and (max-width: 480px) {
-  .row {
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    float: none;
+    width: 33%;
     margin: 0 auto;
-    text-align: center;
   }
 }
